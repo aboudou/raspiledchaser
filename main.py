@@ -27,9 +27,9 @@ pid = os.getpid()
 
 # Save current pid for later use
 try:
-    fhandle = open('/var/run/raspik2000.pid', 'w')
+    fhandle = open('/var/run/raspiledchaser.pid', 'w')
 except IOError:
-    print ("Unable to write /var/run/raspik2000.pid")
+    print ("Unable to write /var/run/raspiledchaser.pid")
     exit(1)
 fhandle.write(str(pid))
 fhandle.close()

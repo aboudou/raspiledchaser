@@ -14,7 +14,7 @@ case "$1" in
     ;;
   stop)
     # Stop RasPiLEDChaser
-    `which kill` `cat /var/run/raspiledchaser.pd`
+    `which kill` `cat /var/run/raspiledchaser.pid`
     `which rm` /var/run/raspiledchaser.pid
 
     ;;
