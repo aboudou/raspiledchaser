@@ -9,8 +9,7 @@ import signal
 
 # Called on process interruption. Set all pins to "Input" default mode.
 def endProcess(signalnum = None, handler = None):
-    for gpioPinLed in gpioPinLedList:
-        GPIO.setup(gpioPinLed, GPIO.IN)
+    GPIO.cleanup()
     exit(0)
 
 # Put pins to out mode, and switch off LED.
