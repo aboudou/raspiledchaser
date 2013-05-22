@@ -10,7 +10,7 @@ Requirements
 ------------
 
 * First of all : a Raspberry Pi
-* LED and resistors to build the LED chaser. Assembly instructions are available at the following URL: [https://goddess-gate.com/dc2/index.php/pages/raspiledmeter.en](https://goddess-gate.com/dc2/index.php/pages/raspiledmeter.en). This is for a different project, but the assembly is the same.
+* LED and resistors to build the LED chaser. Assembly instructions are available at the following URL: [https://goddess-gate.com/projects/en/raspi/raspiledmeter](https://goddess-gate.com/projects/en/raspi/raspiledmeter). This is for a different project, but the assembly is the same.
 * Python (with Debian / Raspbian : packages "python" and "python-dev")
 * RPi.GPIO library (0.4.0a or newer) from [http://pypi.python.org/pypi/RPi.GPIO](http://pypi.python.org/pypi/RPi.GPIO)
 
@@ -27,7 +27,7 @@ How to use RasPiLEDChaser
 -------------------------
 
 You'll first have to build the LED chaser, and plug it to the Raspberry Pi
-  (check [https://goddess-gate.com/dc2/index.php/pages/raspiledmeter.en](https://goddess-gate.com/dc2/index.php/pages/raspiledmeter.en) for more information).
+  (check [https://goddess-gate.com/projects/en/raspi/raspiledmeter](https://goddess-gate.com/projects/en/raspi/raspiledmeter) for more information).
 
 When you're done, just launch RasPiLEDChaser with `./raspiledchaser.sh start` as
   root user and admire the LED chaser working :-) When you want / need to stop
